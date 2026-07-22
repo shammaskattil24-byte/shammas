@@ -1,0 +1,48 @@
+def book_room(bookking_room):
+    room_no = int(input("Enter the room number"))
+    if room_no in booking:
+        print("room is not available ")
+    else:
+        print("available")
+        return
+    guest_name= str(input("Enter your name"))
+    room_type=input("Enter the room you want:deluxe & stardard & suit:")
+    number_days=int("number of days you stay")
+    total_price=("")
+    booking[room_no]
+    {
+        " guest name":guest_name,
+        "room type":room_type,
+        "number of days":number_days
+        
+    }
+    print("your room booking has succesfully completed")
+    
+    
+    
+def view_booking(bookings):
+    if not bookings:
+        print("no booking are found")
+    else:
+        for room_no in bookings:
+            print{"guest name":guest_name}
+            print{"room type":room_type}
+            print{"number of days":number_days}
+                    
+def search_booking(bookings):
+    if not in bookings:
+        print("not found in records")   
+    else:
+        if bookings in booking:
+            print{"guest name":guest_name}
+            print{"room type":room_type}
+            print{"number of days":number_days}
+                                
+                     
+def update_days(bookings):
+    if room_no in booking: 
+more_number_days=int("number of days you more  stay")  
+number_days appent.more_number_days   
+            
+    
+    
